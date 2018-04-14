@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.zxg.customizablemockserver.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_start_server"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_margin="@dimen/dp_10"
+        android:gravity="center"
+        android:text="Start server"
+        android:textSize="@dimen/sp_15"
+        android:background="@color/color_888"/>
+
+    <TextView
+        android:id="@+id/tv_stop_server"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_margin="@dimen/dp_10"
+        android:gravity="center"
+        android:text="Stop server"
+        android:textSize="@dimen/sp_15"
+        android:background="@color/color_888"/>
+
+    <TextView
+        android:id="@+id/tv_edit_api"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_margin="@dimen/dp_10"
+        android:gravity="center"
+        android:text="Edit api"
+        android:textSize="@dimen/sp_15"
+        android:background="@color/color_888"/>
+
+    <TextView
+        android:id="@+id/tv_request"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_margin="@dimen/dp_10"
+        android:gravity="center"
+        android:text="request"
+        android:textSize="@dimen/sp_15"
+        android:background="@color/color_888"/>
+
+</LinearLayout>
